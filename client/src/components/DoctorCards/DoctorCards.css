@@ -1,0 +1,90 @@
+.card-container{
+    background-color: rgb(225, 247, 247);
+}
+.card-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: rgb(27, 14, 99);
+    text-shadow: 0 10px 15px rgb(98, 177, 177);
+}
+.appoinment{
+    background-color: rgb(255, 136, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 40px;
+    padding:10px ;
+    font-size: 20px;
+    font-family: poppins;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.appoinment:hover{
+    background-color: rgb(55, 192, 192);
+    
+}
+.btn-appoinment{
+    padding-bottom:20px;
+}
+.btn-appoinment2{
+    padding-bottom:20px;
+    padding-left:80px;
+}
+
+.desc1{
+    font-weight: bold;
+    font-size: 25px;
+}
+.desc2{
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding:10px 0 0 20px;
+}
+.card-wrapper{
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    margin-left:-100px;
+    margin-right: 100px;
+  }
+  .card-wrapper section
+  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+
+.card-container{
+    width:750px;
+    /* min-width:150px; */
+    height: 650px;
+    border-radius:10px;
+    background:white;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    /* padding:5px; */
+    box-shadow:0px 0px 20px rgba(0,0,0,0.15);
+    transition:0.5s;
+    cursor:pointer;
+    /* margin:8px; */
+  }
+  .doctor-img{
+    width:350px;
+    height:350px;
+  }
