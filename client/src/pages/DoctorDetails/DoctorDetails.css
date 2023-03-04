@@ -19,7 +19,7 @@
 .wrap-doc {
   background-size: 100%;
   background-repeat: repeat;
-  background-color: #0c83fa;
+  background-color: #b3d4f4;
 }
 
 
@@ -59,8 +59,8 @@
 
 
 .btn-1 {
-  background-color: aqua;
-  color: #190a6d;
+  background-color: rgb(105, 104, 112);
+  color: #f4f4f6;
   text-decoration: none;
   padding: 1em 2em;
   font-size: 2.5em;
@@ -82,7 +82,7 @@
 
 .btn-1:hover {
   cursor: pointer;
-  background-color: #280cfa;
+  background-color: #0cc6fa;
   color: #214509;
   -webkit-box-shadow: 0 0 15px #826b03, 0 0 20px;
           box-shadow: 0 0 15px #ff9900, 0 0 20px;
@@ -141,12 +141,12 @@
     display: flex;
     justify-content:center;
     align-items:center;
-  font-size: 10rem;
-  text-shadow: 5px 10px 5px #9c32aa;
+  font-size: 7rem;
+  text-shadow: 5px 10px 5px #514b52;
   margin-top: -30rem;
 }
 .desc{
-    color:#faebfc;
+    color:#0e0e0e;
     font-size:20px;
     
     padding: 50px;

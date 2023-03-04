@@ -47,12 +47,15 @@
     align-items:center;
     
   }
-  .img-container{
+  .img-containerr{
     height: 335px;
     width: 135px;
+    border:1px solid rgb(16, 16, 16);
+    
   }
   .gmap{
     padding-left: 140px;
+    padding-bottom: 50px;
   }
 .img-wrap{
     padding-left:200px;
