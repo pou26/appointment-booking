@@ -106,7 +106,7 @@ export default function Footer() {
 
         <div className="text-center p-4">
           © 2021 Copyright:
-          <Link className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</Link>
+          <Link className="text-reset fw-bold" href="https://mdbootstrap.com/">Altius Hospital.com</Link>
         </div>
 
       </div>
