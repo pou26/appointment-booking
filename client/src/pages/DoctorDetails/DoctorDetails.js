@@ -28,7 +28,7 @@ export default function DoctorDetails() {
                     </ul>
                 </div>
                 <div className="container-about">
-                    <button className="btn-1" onClick={()=>{redirect("/login",{state:{name:state.name}})}}>Book Appoinment</button>
+                    <button className="btn-1" onClick={()=>{redirect("/login",{state:{name:state.name}})}}>Book Appointment</button>
                     <div className="about-wrap">
                     <h3 className="about">About Doctor</h3>
                     <p className="desc">

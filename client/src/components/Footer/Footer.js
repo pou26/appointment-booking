@@ -1,6 +1,5 @@
 
 import React from 'react'
-// import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn } from 'mdb-react-ui-kit';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -58,10 +57,6 @@ export default function Footer() {
               </div>
 
               <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                {/* <h6 className="text-uppercase fw-bold mb-4">
-                  Useful links
-                </h6> */}
                    <h6 className='footer-header text-uppercase fw-bold mb-4'>Useful links</h6>
                  <p>
                    <Link href='#!' className='text-reset'>
