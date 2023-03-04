@@ -5,11 +5,13 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import { useNavigate } from 'react-router-dom';
 
 import { Link } from 'react-router-dom'
 import "./Footer.css"
 
 export default function Footer() {
+  const redirect = useNavigate()
   return (
     <div className='footer'>
 
@@ -24,7 +26,7 @@ export default function Footer() {
 
 
           <div>
-            <button className='logo-social' style={{ backgroundColor: '#0082ca' }}><FacebookOutlinedIcon /></button>       <button className='logo-social' style={{ backgroundColor: '#ac2bac' }}><InstagramIcon /></button>                  <button className='logo-social' style={{ backgroundColor: '#dd4b39' }}><YouTubeIcon /></button>               <button className='logo-social' style={{ backgroundColor: '#55acee' }}><LinkedInIcon /></button>           <button className='logo-social' style={{ backgroundColor: '#333333' }}><TwitterIcon /></button>
+            <Link to ="https://www.facebook.com/altiushospitals/"><button className='logo-social' style={{ backgroundColor: '#0082ca' }}><FacebookOutlinedIcon /></button></Link>      <Link to ="https://www.instagram.com/altiushospitals/"><button className='logo-social' style={{ backgroundColor: '#ac2bac' }}><InstagramIcon /></button></Link>                  <Link to ="https://www.youtube.com/@altiushospitals"><button className='logo-social'  style={{ backgroundColor: '#dd4b39' }}><YouTubeIcon /></button></Link>               <Link to ="https://www.linkedin.com/company/altius-hospitals/"><button className='logo-social' style={{ backgroundColor: '#55acee' }}><LinkedInIcon /></button></Link>           <Link to ="https://twitter.com/altiushospitals"><button className='logo-social' style={{ backgroundColor: '#333333' }}><TwitterIcon /></button></Link>
           </div>
 
         </section>
@@ -105,8 +107,8 @@ export default function Footer() {
         </section>
 
         <div className="text-center p-4">
-          © 2021 Copyright:
-          <Link className="text-reset fw-bold" href="https://mdbootstrap.com/">Altius Hospital.com</Link>
+         Copyright 2022 © 
+          <Link className="text-reset fw-bold" href="">Altius Sripada Hospitals LLP</Link>
         </div>
 
       </div>

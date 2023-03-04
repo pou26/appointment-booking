@@ -32,9 +32,9 @@ export default function DoctorCards(props) {
           <div>
             <h1 className="card-head">Dr. Syed Imran</h1>
             <p className="desc2">
-              Head-Department of Orthopaedics,Bone & joint Surgery
+              Head-Department of Orthopaedics
             </p>
-            <div className="btn-appoinment2">
+            <div className="btn-appoinment">
             <button className="appoinment" onClick={()=>{redirect("/doctor" , {state:{name:"Dr. Syed Imran" , desc: "Head-Department of Orthopaedics,Bone & joint Surgery", link:"https://altiushospital.com/wp-content/uploads/2022/09/dr-imran.jpg"}})}}>Book Appointment</button>
             </div>
           </div>

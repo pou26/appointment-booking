@@ -35,15 +35,20 @@
 }
 .btn-appoinment{
     padding-bottom:20px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .btn-appoinment2{
-    padding-bottom:20px;
+    padding-bottom:30px;
     padding-left:80px;
 }
 
 .desc1{
     font-weight: bold;
     font-size: 25px;
+    text-align: center;
 }
 .desc2{
     font-weight: bold;
@@ -51,7 +56,8 @@
     display: flex;
     align-items:center;
     justify-content:center;
-    padding:10px 0 0 20px;
+    text-align: center;
+    
 }
 .card-wrapper{
     display:flex;
