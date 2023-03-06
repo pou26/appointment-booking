@@ -4,7 +4,7 @@ const cors=require("cors");
 const route = require('./route');
 const { default: mongoose } = require('mongoose');
 const app = express();
-app.use(cors())
+app.use(cors({origin:"https://superlative-strudel-620e8d.netlify.app"}))
 
 app.use(express.json());
 mongoose.set('strictQuery', true)
