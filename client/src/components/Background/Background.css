@@ -1,0 +1,53 @@
+.card-wrap-background{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.card {
+    
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    height: 735px;
+    width:1540px;
+    /* margin:100px 0 450px 250px ; */
+}
+.hospital-img{
+    margin-top: 50px;
+    height: 835px;
+    width:1040px;
+}
+h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    display:flex;
+    color: #FF8630;
+}
+.background-text{
+    font-family: inherit;
+    font-size: 20px;
+    color: rgb(97, 95, 95);
+    
+
+}
+.btn-search1{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    /* margin-top: -2rem; */
+    margin-left: 120px;
+    background-color: rgb(147, 144, 144);
+    border-radius: 10px;
+}
+.form-control{
+    margin-top:20px;
+    margin-left: -250px;
+}

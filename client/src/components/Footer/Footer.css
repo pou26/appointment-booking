@@ -1,0 +1,53 @@
+.footer{
+    margin-top: 50px;
+}
+.logo-social{
+    border-radius: 50px;
+    padding:15px;
+   
+}
+.logo-social:hover{
+    height:60px;
+    width:60px;
+}
+.icons-footer{
+    display: flex;
+}
+.footer-content{
+    background-color: rgb(209, 247, 247);
+}
+.footer-logo{
+    height: 100px;
+    width:350px;
+}
+.footer-logo:hover{
+    height: 120px;
+    width:370px;
+}
+.blog-text{
+    font-weight: bold;
+    cursor:pointer;
+    color:grey;
+    text-decoration: none;
+}
+.footer-logo{
+    cursor:pointer;
+}
+.footer-header{
+    font-weight: bold;
+    font-size:xx-large;
+    text-shadow: 0 10px 15px ;
+    padding-bottom: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-reset{
+    text-decoration: none;
+    font-size: 20px;
+}
+.text-reset:hover{
+    color:rgb(247, 248, 249);
+    text-shadow: 0 5px 10px;
+}
+

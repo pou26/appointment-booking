@@ -1,0 +1,74 @@
+.award{
+  max-width: 100%;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    text-shadow: 0 5px 10px;
+    
+}
+.feedback-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-btn{
+    background-color: aqua;
+    padding:10px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+
+.call-btn:hover{
+    background-color: white;
+    color:aqua;
+    text-shadow: 0 5px 10px;
+}
+.award-header{
+    font-size: 80px;
+    color: rgb(246, 83, 7);
+    text-shadow: 0 5px 25px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.mapwrap{
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    /* margin-left:-100px; */
+    margin-right: 100px;
+  }
+  .mapwrap section
+  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+  }
+  .img-containerr{
+    height: 300px;
+    width: 300px;
+    border:1px solid rgb(16, 16, 16);
+    
+  }
+  .gmap{
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+  }
+.img-wrap{
+    padding-left:100px;
+}
+.award-header{
+    display:flex;
+    justify-content: flex-start;
+    padding-left:550px;
+    
+}
+.img1{
+  padding-left:10px;
+}
