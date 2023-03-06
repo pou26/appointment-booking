@@ -1,4 +1,9 @@
-
+.card-wrap-background{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
 
 .card {
     
@@ -9,11 +14,12 @@
     border-radius: 0.25rem;
     height: 735px;
     width:1540px;
-    margin:100px 0 450px 250px ;
+    /* margin:100px 0 450px 250px ; */
 }
 .hospital-img{
-    height: 735px;
-    width:1540px;
+    margin-top: 50px;
+    height: 835px;
+    width:1040px;
 }
 h1 {
     padding-top: 30px;
@@ -26,7 +32,22 @@ h1 {
 }
 .background-text{
     font-family: inherit;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(97, 95, 95);
+    
 
+}
+.btn-search1{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    /* margin-top: -2rem; */
+    margin-left: 120px;
+    background-color: rgb(147, 144, 144);
+    border-radius: 10px;
+}
+.form-control{
+    margin-top:20px;
+    margin-left: -250px;
 }

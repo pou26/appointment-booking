@@ -1,3 +1,6 @@
+.doctor-card-wrapper{
+    max-width:100%;
+}
 .card-container{
     background-color: rgb(225, 247, 247);
 }
@@ -5,6 +8,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
+    
     
 }
 .header{
@@ -12,6 +17,7 @@
     justify-content: center;
     align-items: center;
     font-size: 50px;
+    padding-bottom: 50px;
     color: rgb(27, 14, 99);
     text-shadow: 0 10px 15px rgb(98, 177, 177);
 }
@@ -26,33 +32,30 @@
     padding:10px ;
     font-size: 20px;
     font-family: poppins;
-    margin-left: 50px;
+    margin-left: 30px;
     border-radius: 10px;
 }
 .appoinment:hover{
     background-color: rgb(55, 192, 192);
     
 }
-.btn-appoinment{
-    padding-bottom:20px;
+/* .btn-appoinment{
+    padding-bottom:50px;
     padding-right: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.btn-appoinment2{
-    padding-bottom:30px;
-    padding-left:80px;
-}
+} */
+
 
 .desc1{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
 }
 .desc2{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     display: flex;
     align-items:center;
     justify-content:center;
@@ -61,24 +64,30 @@
 }
 .card-wrapper{
     display:flex;
-    position:relative;
-    justify-content:center;
+    /* position:relative; */
+    justify-content:space-between;
     align-items:center;
-    margin-left:-100px;
-    margin-right: 100px;
+    margin-left:200px;
+    margin-bottom: 50px;
+    
+    /* margin-right: 50px; */
   }
   .card-wrapper section
   {
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
     
   }
+  .card-content-desc{
+    margin-bottom: 50px;
+  }
+
 
 .card-container{
-    width:750px;
+    width:350px;
     /* min-width:150px; */
-    height: 650px;
+    height: 550px;
     border-radius:10px;
     background:white;
     display:flex;
@@ -93,4 +102,9 @@
   .doctor-img{
     width:350px;
     height:350px;
+    padding: 20px;
+  }
+  .card-gap{
+    padding-left: 80px;
+    padding-right: 80px;
   }

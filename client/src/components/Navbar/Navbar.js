@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import SearchIcon from '@mui/icons-material/Search';
+
 import "./Navbar.css"
 function Navbar() {
     return (
@@ -14,7 +14,7 @@ function Navbar() {
                     <img src="https://altiushospital.com/wp-content/uploads/2021/01/cropped-Altius-05-300x190.png" className="hospital-logo" alt="..." />
                 </Link>
             </div>
-            <div >
+            <div classsName="list-nav">
                 <NavDropdown title="About Us" className='drop-1 ' >
 
                     <NavDropdown.Item href="#action/3.1" className="list-content">
@@ -32,7 +32,7 @@ function Navbar() {
                     </NavDropdown.Item>
                 </NavDropdown>
             </div>
-            <div >
+            <div classsName="list-nav">
                 <NavDropdown title="Specialities" className='drop-1' >
 
                     <NavDropdown.Item href="#action/3.1" className="list-content">
@@ -106,7 +106,7 @@ function Navbar() {
 
                 </NavDropdown>
             </div>
-            <div >
+            <div classsName="list-nav">
                 <NavDropdown title="Treatments & Services" className='drop-1' >
 
                     <NavDropdown.Item href="#action/3.1" className="list-content">
@@ -146,7 +146,7 @@ function Navbar() {
                     </NavDropdown.Item>
                 </NavDropdown>
             </div>
-            <div >
+            <div classsName="list-nav">
                 <NavDropdown title="Value Adds" className='drop-1' >
                     <NavDropdown.Item href="#action/3.1" className="list-content">
                     <img src="https://altiushospital.com/wp-content/uploads/2023/02/ALTIUS-CARES.svg" className="list-icon" alt="..." />
@@ -176,7 +176,7 @@ function Navbar() {
 
                 </NavDropdown>
             </div>
-            <div >
+            <div classsName="list-nav">
                 <NavDropdown title="Locations" className='drop-1' >
                     <NavDropdown.Item href="#action/3.1" className="list-content">
                     <img src="https://altiushospital.com/wp-content/uploads/2023/02/LOCATIONS.svg" className="list-icon" alt="..." />
@@ -207,15 +207,12 @@ function Navbar() {
                 <Link className="nav-link" href="#">Blogs <span className="sr-only"></span></Link>
             </div>
             <button className="nav-button active">
-                <Link class="nav-link-button" href="#">Contact Us <span class="sr-only"></span></Link>
+                <Link class="nav-link-button" href="#"> <span className="button-contact">Contact Us</span></Link>
             </button>
             <button className="nav-button2 active">
-                <Link className="nav-link-button" href="#">Call 8882799799 <span class="sr-only"></span></Link>
+                <Link className="nav-link-button" href="#"><span class="button-contact">Call 8882799799 </span></Link>
             </button>
-            <form className="form-inline my-2 my-lg-0">
-                <input className="form-control" type="search" placeholder="Search" aria-label="Search" />
-                <button className="btn-search" type="submit"><SearchIcon classsName="icon-search" /></button>
-            </form>
+
         </div>
     )
 }

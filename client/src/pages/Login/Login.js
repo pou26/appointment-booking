@@ -83,7 +83,7 @@ export default function Login() {
     setcredentials({ ...credentials, [e.target.name]: e.target.value })
   }
   return (
-    <div>
+    <div className="form-wraper">
       <div className="container">
         <form onFinish={onfinishHandler}>
         <div className="mb-3">

@@ -1,10 +1,21 @@
 import React from 'react'
+import SearchIcon from '@mui/icons-material/Search';
 
 import "./Background.css"
 
 export default function Background() {
     return (
+        <div className="card-wrap-background">
+       
         <div className="card">
+        <div className="form-search" style={{width:"10px"}}>
+            <form className="form-srch ">
+                <input className="form-control" type="search" placeholder="Search" aria-label="Search"  />
+                <button className="btn-search1" type="submit"><SearchIcon classsName="icon-search" /></button>
+            </form>
+            </div>
+
+        
                 
                 <img src="https://altiushospital.com/wp-content/uploads/2022/12/HBR-5.png" className="hospital-img" alt="..." />
 
@@ -17,6 +28,7 @@ export default function Background() {
                     </p>
                 </div>
 
+        </div>
         </div>
     )
 }

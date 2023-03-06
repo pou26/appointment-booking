@@ -75,7 +75,7 @@ export default function Feedback() {
             <input type="email" className="form-control" name="email" value={credentials.email} onChange={onChange} />
 
           </div>
-          <div className="mb-3">
+          <div className="m">
             <label htmlFor="exampleInputPassword1" className="form-label">Mobile Number</label>
             <input type="text" className="form-control" name="mobile" value={credentials.mobile} onChange={onChange} />
           </div>

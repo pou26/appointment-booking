@@ -1,4 +1,6 @@
-
+.award{
+  max-width: 100%;
+}
 .feedback{
     display: flex;
     justify-content: center;
@@ -37,7 +39,7 @@
     position:relative;
     justify-content:center;
     align-items:center;
-    margin-left:-100px;
+    /* margin-left:-100px; */
     margin-right: 100px;
   }
   .mapwrap section
@@ -48,21 +50,25 @@
     
   }
   .img-containerr{
-    height: 335px;
-    width: 135px;
+    height: 300px;
+    width: 300px;
     border:1px solid rgb(16, 16, 16);
     
   }
   .gmap{
-    padding-left: 140px;
+    padding-left: 20px;
+    padding-right: 0px;
     padding-bottom: 50px;
   }
 .img-wrap{
-    padding-left:200px;
+    padding-left:100px;
 }
 .award-header{
     display:flex;
     justify-content: flex-start;
     padding-left:550px;
     
+}
+.img1{
+  padding-left:10px;
 }
