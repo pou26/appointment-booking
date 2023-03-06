@@ -36,5 +36,6 @@
 }
 .form-control{
   min-width: 400px;
-  padding-left:-50px;
+  margin-left:3%;
+  
 }
