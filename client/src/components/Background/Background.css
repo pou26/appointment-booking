@@ -47,7 +47,12 @@ h1 {
     background-color: rgb(147, 144, 144);
     border-radius: 10px;
 }
-.form-control{
+.form-control-b{
     margin-top:20px;
     margin-left: -250px;
+}
+.back-wrapper{
+    padding-left:30px;
+padding-right:30px;
+/* padding-bottom:50px; */
 }
